@@ -142,17 +142,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="cube.cpp" />
     <ClCompile Include="d3dUtility.cpp" />
-    <ClCompile Include="texCube.cpp" />
+    <ClCompile Include="Human.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cube.h" />
     <ClInclude Include="d3dUtility.h" />
+    <ClInclude Include="Texture.h" />
     <ClInclude Include="vertex.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="crate.jpg" />
+    <Image Include="GrassTexture.jpg" />
+    <Image Include="SkyTexture.jpg" />
+    <Image Include="WallTexture.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

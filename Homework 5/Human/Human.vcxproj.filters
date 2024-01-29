@@ -18,10 +18,10 @@
     <ClCompile Include="d3dUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cube.cpp">
+    <ClCompile Include="Human.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="texCube.cpp">
+    <ClCompile Include="Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,9 +35,21 @@
     <ClInclude Include="vertex.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="crate.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="GrassTexture.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="SkyTexture.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="WallTexture.jpg">
       <Filter>Source Files</Filter>
     </Image>
   </ItemGroup>
