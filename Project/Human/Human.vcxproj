@@ -144,10 +144,26 @@
   <ItemGroup>
     <ClCompile Include="d3dUtility.cpp" />
     <ClCompile Include="Human.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d3dUtility.h" />
-    <ClInclude Include="drawer.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="vertex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="crate.jpg" />
+    <Image Include="GrassTexture.jpg" />
+    <Image Include="ice.bmp" />
+    <Image Include="SkyTexture.jpg" />
+    <Image Include="WallTexture.jpg" />
+    <Image Include="WallTexture2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="car.x" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Theme-song.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

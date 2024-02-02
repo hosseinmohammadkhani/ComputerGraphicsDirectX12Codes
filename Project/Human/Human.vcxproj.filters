@@ -21,13 +21,49 @@
     <ClCompile Include="Human.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="d3dUtility.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="drawer.h">
+    <ClInclude Include="vertex.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="crate.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="GrassTexture.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="SkyTexture.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="WallTexture.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="WallTexture2.JPG">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="ice.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="car.x">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Theme-song.wav">
+      <Filter>Source Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
